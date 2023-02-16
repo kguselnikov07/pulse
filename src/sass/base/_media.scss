@@ -94,6 +94,23 @@
 			}
 		}
 	}
+	.footer {
+		height: 500px;
+		iframe {
+			height: 500px;
+		}
+		&__info {
+			width: 400px;
+			height: 220px;
+			padding: 30px 35px;
+		}
+		&__addr {
+			margin-bottom: 30px;
+		}
+		&__phone {
+			margin-bottom: 30px;
+		}
+	}
 }
 
 @media (max-width: 767px) {
@@ -204,6 +221,27 @@
 		&__text {
 			font-size: 14px;
 			line-height: 20px;
+		}
+	}
+	.footer {
+		height: 400px;
+		iframe {
+			height: 400px;
+		}
+		&__info {
+			width: 320px;
+			height: 160px;
+			padding: 15px 18px;
+		}
+		&__addr {
+			margin-bottom: 24px;
+			font-size: 16px;
+			line-height: 16px;
+		}
+		&__phone {
+			margin-bottom: 24px;
+			font-size: 18px;
+			line-height: 18px;
 		}
 	}
 }
@@ -323,4 +361,63 @@
 			text-align: center;
 		}
 	}
+	.footer {
+		height: 400px;
+		iframe {
+			height: 400px;
+		}
+		&__info {
+			width: 280px;
+			height: 140px;
+			padding: 15px 18px;
+		}
+		&__addr {
+			margin-bottom: 22px;
+			font-size: 15px;
+			line-height: 15px;
+		}
+		&__phone {
+			margin-bottom: 14px;
+			font-size: 17px;
+			line-height: 17px;
+		}
+		&__social {
+			a {
+				width: 44px;
+				height: 44px;
+			}
+		}
+	}
+	.overlay {
+		.modal {
+			width: 240px;
+			min-height: 300px;
+			padding: 15px 15px;
+			&__close {
+				right: -28px;
+			}
+			&__subtitle {
+				font-size: 13px;
+				line-height: 13px;
+			}
+			&__descr {
+				font-size: 10px;
+				line-height: 10px;
+			}
+		}
+		.feed-form {
+			width: 205px;
+			margin-top: 20px;
+			input {
+				height: 40px;
+				padding: 0 10px;
+			}
+		}
+		.button_submit {
+			width: 205px;
+			height: 40px;
+			font-size: 13px;
+		}
+	}
+	
 }
