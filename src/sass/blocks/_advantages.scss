@@ -18,6 +18,12 @@
             text-align: center;
             color: #0D0D0D;
         }
+        .animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__descr {
         margin-top: 20px;
